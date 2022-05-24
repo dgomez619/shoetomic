@@ -44,16 +44,16 @@
       <form action="https://formsubmit.co/ss.im.back@gmail.com" method="POST">
         <div class="form-group">
           <label for="exampleFormControlInput1" >Email address</label>
-          <input alt="enter email address" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+          <input name="email" alt="enter email address" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
         </div>
         <div class="form-group">
           <label for="exampleFormControlInput1">Phone Number</label>
-          <input alt="enter phone number" type="phone" class="form-control" id="exampleFormControlInput1" placeholder="(321)-123-0321">
+          <input name="phone" alt="enter phone number" type="phone" class="form-control" id="exampleFormControlInput1" placeholder="(321)-123-0321">
         </div>
         <input type="hidden" name="_captcha" value="false">
         <div class="form-group">
           <label for="exampleFormControlSelect2">Subject</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2" alt="reason for contacting us">
+          <select name="reason" multiple class="form-control" id="exampleFormControlSelect2" alt="reason for contacting us">
             <option name="subject">MEMBERSHIP</option>
             <option name="subject">REFUNDS</option>
             <option name="subject">CAREERS</option> 
@@ -62,7 +62,7 @@
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">How can we assist you?</label>
-          <textarea name="message" alt="enter text explaning how we can help" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea name="message" alt="enter text explaining how we can help" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           <br>
           <button type="submit" class="btn btn-primary">Submit Form</button>
         </div>
